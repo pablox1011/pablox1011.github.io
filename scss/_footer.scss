@@ -1,0 +1,69 @@
+footer{
+
+    min-height: 70px;
+    background-color: #FEC89A;
+    justify-content: space-between;
+    padding: 10px;
+    grid-area: footer;
+    
+  }
+  
+  .redes{
+    display: flex;
+    height: 10vh;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .redes ul li{
+    display: inline-block;
+    margin: 0 5px;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+  }
+  
+  .redes ul li a{
+    display: block;
+    padding: 0 10px;
+    background-color: #333;
+    color: #fff;
+    line-height: 50px;
+    font-size: 18px;
+    box-shadow: 0 3px 5px 0px rgba(0, 0, 0, .2);
+  }
+  
+  .redes ul:hover a{
+    filter: blur(2px);
+  }
+  
+  .redes ul li a:hover{
+    transform: translateY(-3px) scale(1.05);
+    box-shadow: 0 5px 5px 0px rgba(0, 0, 0, .4);
+    filter: none;
+  }
+  
+  .redes ul li .facebook:hover{
+    background: var(--facebook);
+  }
+  .redes ul li .instagram:hover{
+    background: var(--instagram);
+  }
+  .redes ul li .twitter:hover{
+    background: var(--twitter);
+  }
+  .redes ul li .youtube:hover{
+    background: var(--youtube);
+  }
+  .redes ul li .gmail:hover{
+    background: var(--gmail);
+  }
+  
+  :root{
+    --facebook:
+    color: white; 
+  }
+  
+  .animacion{
+    transition: .5s linear;
+  }
