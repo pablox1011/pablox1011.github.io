@@ -4,5 +4,24 @@ $crema:#F8EDEB;
 $crema_oscuro:#FEC89A;
 $blanco: white;
 
-/* medidas */
+/* fuentes */
+
+$fuentes:(
+    thin:100,
+    light:300,
+    regular:400,
+    medium:500,
+    bold:700,
+    black:900
+);
+
+$sizes:(
+    14:14px,
+    16:16px,
+    20:20px,
+    10:10px
+);
+
+
+
 
